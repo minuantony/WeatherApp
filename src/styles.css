@@ -8,10 +8,14 @@ body {
 h1 {
   text-align: center;
   color: #58716e;
-  font-size: 80px;
+  font-size: 75px;
   font-weight: bold;
   margin: 20px;
+  margin-left: 0;
   position: relative;
+}
+a {
+  text-decoration: none;
 }
 
 h2 {
