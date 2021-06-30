@@ -1,3 +1,4 @@
+//Feature 1
 let now = new Date();
 console.log(now);
 let days = [
@@ -20,6 +21,7 @@ console.log(current);
 let headingFive = document.querySelector("h5 mark");
 headingFive.innerHTML = current;
 
+//Feature 2
 let form = document.createElement("form");
 let span = document.querySelector(".search-button");
 span.appendChild(form);
@@ -39,6 +41,7 @@ function displayCity(event) {
 button.addEventListener("click", displayCity);
 form.addEventListener("submit", displayCity);
 
+//Bonus Feature
 function fahrenheit(event) {
   event.preventDefault();
   let temp = document.querySelector(".temperature");
